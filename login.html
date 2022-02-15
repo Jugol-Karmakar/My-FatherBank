@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center font-semibold mt-8">
+        Welcome to <span class="font-semibold text-blue-600">Matir Bank!!</span>
+      </h1>
+    </header>
+
+    <main>
+      <section class="bg-zinc-200 w-3/5 mx-auto p-8 mt-5 rounded-lg">
+        <h2 class="text-center text-4xl font-semibold text-black-600 mb-4">
+          Login form
+        </h2>
+        <div>
+          <input
+            type="email"
+            class="w-2/4 block p-2 mb-4 rounded-lg mx-auto"
+            name="email"
+            placeholder="Your Email"
+            id="input-email"
+          />
+          <input
+            type="password"
+            class="w-2/4 block p-2 mb-4 rounded-lg mx-auto"
+            name="password"
+            placeholder="Your Email"
+            id="input-password"
+          />
+          <button
+            id="login-btn"
+            class="block mx-auto bg-indigo-800 text-xl font-semibold text-white py-2 px-8 rounded"
+          >
+            Login
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="login.js"></script>
+  </body>
+</html>
